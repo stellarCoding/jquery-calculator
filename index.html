@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jquery calculator</title>
+    <meta name="description" content="DESCRIPTION">
+    <link rel="stylesheet" href="styles/app.scss">
+
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+
+        <div class="clearfix" id="wrapper">
+            <main>
+                <div id="screen"></div>
+                <div class="row">
+                    <button class="darker ion-backspace" id="back"> </button>
+                    <button class="darker" id="clear">AC</button>
+                    <button class="darker">+/-</button>
+                    <button class="darker" id="divide">&divide;</button>
+                </div>
+                <div class="row">
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button class="darker" id="multiply">&#215;</button>
+                </div>
+                <div class="row">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button class="darker" id="add">+</button>
+                </div>
+                <div class="row">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button class="darker" id="subtract">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn-wide">0</button>
+                    <button>.</button>
+                    <button class="blue">=</button>
+                </div>
+            </main>
+        </div>
+    </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
